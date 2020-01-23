@@ -21,6 +21,9 @@
 ## Remove all docker containers
 `docker rm $(docker ps -a -q)`
 
+## Remove all docker images
+`docker rmi $(docker images -q)`
+
 ## Run docker image with detached option (runs in background)
 `docker run -d --name {your-container-name} {docker-image-name}`
 
