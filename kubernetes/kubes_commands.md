@@ -18,6 +18,9 @@
 ## Get into a bash container within a pod
 `kubectl exec -it [pod-name] -n dev -c [container-name] /bin/bash`
 
+## Get environment variables within a specific pod
+`kubectl -n dev exec -it [pod-name] env`
+
 ## Get verbose information on a specific pod
 `kubectl describe pod [pod-name] -n dev`
 
