@@ -27,5 +27,11 @@
 ## Get a list of all deployments in a kubes cluster
 `kubectl -n dev get deployments`
 
+## Get a verbose information of all deployments in a kubes cluster
+`kubectl -n dev describe deployment [deployment-name]`
+
+## Get secrets in a certain namespace
+`kubectl -n dev get secrets`
+
 ## Get ingress urls of all pods
 `kubectl -n dev get ingress`
