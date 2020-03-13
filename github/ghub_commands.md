@@ -5,3 +5,4 @@
 `git merge -s ours old_branch`
 `git checkout old_branch`
 `git merge new_branch`
+`git push`
