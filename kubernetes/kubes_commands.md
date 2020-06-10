@@ -35,3 +35,9 @@
 
 ## Get ingress urls of all pods
 `kubectl -n dev get ingress`
+
+## Get horizontal pod autoscalers
+`kubectl -n dev get hpa`
+
+## Edit autoscaler rules
+`kubectl -n dev edit hpa [hpa-name]`
