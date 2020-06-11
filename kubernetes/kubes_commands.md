@@ -41,3 +41,6 @@
 
 ## Edit autoscaler rules
 `kubectl -n dev edit hpa [hpa-name]`
+
+## Manually scale pods to 2
+`kubectl scale --replicas=2 deployment/[deployment-name]`
