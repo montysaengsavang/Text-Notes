@@ -1,3 +1,4 @@
+```
 ZSH_THEME="robbyrussell"
 
 plugins=(git)
@@ -36,3 +37,4 @@ alias k='kubectl'
 alias d='docker'
 
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+```
